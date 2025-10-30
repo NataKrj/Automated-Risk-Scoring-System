@@ -1,0 +1,77 @@
+# Meeting Minutes
+
+**Date:** 10 February 2025  
+**Subject:** Discussion of master’s thesis topic on fraud detection for legal-entity transactions and synthetic data generation  
+**Participants:**
+- **Jelena Kijonoka** – supervisor
+- **Nadezda Spiridovska** – supervisor
+- **Natalja Krukova** – master’s thesis author
+
+---
+
+## 1. Purpose
+The meeting was held to clarify and narrow the topic of the master’s thesis by Natalja Krukova, focused on detection of fraudulent schemes in transactions of legal entities and on designing a method for generating synthetic data that reflects realistic banking scenarios.
+
+---
+
+## 2. Discussion
+
+### 2.1 Source data and its characteristics
+- Natalja is working with **training / educational banking data** that is close to real data (2 companies, 450+ transactions).
+- The data describes **relationships between legal entities**, including possible **fund-out** and **circular (round-trip) schemes**.
+- At the moment there are **around 200 fraud scenarios** identified; it is planned to **reduce them to 40–50 core scenarios** and then extend with details.
+- The **share of fraudulent transactions (approx. 10–20%)** was considered realistic for ML model training.
+
+### 2.2 Problems and specifics in data work
+- Both supervisors noted that there is **no single standard approach** for selecting and preparing data for fraud analysis on legal-entity transactions.
+- Existing public/synthetic datasets are **either too small** or **do not contain important attributes** (contract text, description of operation, counterparties).
+- It was agreed that Natalja will **design and test her own synthetic-data generation procedure** to match the target fraud scenarios.
+
+### 2.3 Machine learning methods and models
+- Possible approaches discussed: **XGBoost**, other **gradient boosting models**, and **neural networks**.
+- **Interpretability** was underlined by both supervisors as a **mandatory requirement** because of banking / regulatory expectations.
+- A **hybrid pipeline** was considered: structured data-preparation step + supervised model + explanation layer (XAI).
+- It was noted that boosting and neural models are often perceived as **“black boxes”**, so explanation tools must be included in the thesis.
+
+### 2.4 Synthetic data generation
+- Natalja reviewed existing tools (e.g. **Synthpop, Synthetic Data Vault (SDV)**), but none of them fully covers the needed domain specifics.
+- Plan: **compare several generation approaches** and select the best one for the current task.
+- Quality of generated data should be **validated with existing frameworks / statistical tests**.
+- Manual enrichment of some cases is acceptable to **reproduce concrete fraud patterns**.
+
+### 2.5 Thesis development options
+- **Option 1:** build a **unified system** that adapts data to selected fraud scenarios and ML models.
+- **Option 2 (more realistic):** use existing ML algorithms but **develop data-adaptation / scenario-adaptation methodology**.
+- **Option 3 (more complex):** design a **custom hybrid algorithm** for fraud detection and compare it to standard ones.
+- Supervisors mentioned that a **comparative analysis** of several models is also an acceptable thesis outcome.
+
+### 2.6 Plan of further work
+- Natalja will prepare a **literature review** and **overview of synthetic-data generation methods** applicable to fraud detection in legal-entity transactions.
+- The current dataset will be **analysed for suitability for synthesis** and for mapping to selected core scenarios.
+- Results will be **brought to the supervisors**; after that the topic can be slightly narrowed or reformulated.
+- Final decision on the research direction will be made **after the first experimental results**.
+
+---
+
+## 3. Decisions
+1. Keep the thesis topic in the area of **fraud detection for legal-entity transactions**, but **narrow to 40–50 core scenarios**.
+2. Treat **synthetic data generation** as an integral part of the thesis, not just an auxiliary tool.
+3. Ensure that the final solution **includes interpretability / explainability**.
+4. Prepare a **literature and tools review** as the next deliverable to supervisors.
+
+---
+
+## 4. Next steps
+- **Natalja Krukova (author):**
+  - prepare literature review on fraud detection and synthetic data for AML / banking;
+  - prepare draft description of the **synthetic data generation procedure**;
+  - list the **core 40–50 scenarios** planned for modelling.
+- **Supervisors (J. Kijonoka, N. Spiridovska):**
+  - review the materials and provide comments;
+  - agree on the final formulation and scope of the thesis.
+
+---
+
+**Prepared by:** Natalja Krukova, master’s thesis author  
+**Reviewed by:** **Jelena Kijonoka**, supervisor; **Nadezda Spiridovska**, supervisor  
+**Date:** 10 February 2025

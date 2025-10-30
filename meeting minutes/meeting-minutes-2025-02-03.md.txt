@@ -1,0 +1,74 @@
+**Meeting Minutes**
+
+**Date:** 3 February 2025
+**Subject:** Data preparation and design of the automated transaction risk assessment system
+**Participants:**
+
+* **Jelena Kijonoka** – Supervisor
+* **Natalja Krjuckova** - Master’s thesis author
+
+---
+
+### 1. Purpose of the meeting
+
+The meeting was organised to clarify how to proceed with the master’s thesis *“Developing an automated risk assessment system that uses machine learning”*, especially in conditions where there is not enough real transaction data from Latvian banks.
+
+---
+
+### 2. Discussion points
+
+#### 2.1 Data availability and preparation
+
+* The author reported problems with **limited amount of real data** for model training.
+* **J. Kijonoka** noted that in such a situation it is reasonable to **introduce synthetic data generation** as an explicit stage of the system.
+* It was also discussed that **open datasets do not reflect Latvian / AML-specific scenarios**, so they can be used only for method testing, not as final dataset.
+
+#### 2.2 Scenarios and classification
+
+* The author and supervisor discussed **how many scenarios and risk classes** should be supported in the first version.
+* It was agreed that small scenarios can be **grouped into larger categories** to reduce model complexity.
+* **J. Kijonoka** stressed that **for every scenario/group a data-preparation algorithm must be described** (features, rules, labels).
+
+#### 2.3 Methods and models
+
+* Possible ML methods were mentioned: **tree-based models** and **neural networks**.
+* The main difficulty: **many classes + little data + limited computation** → models may not converge or will overfit.
+* Therefore, the quality of data and class balance were considered more critical than choosing the most advanced model.
+
+#### 2.4 Agreed approach / plan
+
+* Use **open data** only to test the pipeline structure.
+* **Design scenario-based synthetic transactions** to imitate Latvian cases.
+* Build a **general methodology** that later can be applied to real data when/if it becomes available.
+* Focus first on **data preparation, scenario catalogue and reusability**, then on model optimisation.
+
+#### 2.5 Organisational point
+
+* **J. Kijonoka** agreed to review intermediate materials (scenario list, data-prep description).
+* A follow-up meeting will be organised after the author prepares the first version of the scenario catalogue.
+
+---
+
+### 3. Decisions
+
+1. Main focus for the next stage: **data preparation + synthetic data generation + scenario grouping**.
+2. Modelling will continue, but **based on the prepared data**, not the raw open data.
+3. The author will prepare draft documents and send them to the supervisor.
+
+---
+
+### 4. Next steps
+
+* **Author:**
+
+  * prepare draft **scenario catalogue**;
+  * describe **synthetic data creation step**;
+  * outline **data-quality checks**.
+* **Supervisor (J. Kijonoka):** review drafts and provide comments.
+* Schedule the **next meeting**.
+
+---
+
+**Prepared by:** **Natalja Krjuckova**, Master’s thesis author
+**Reviewed by:** **Jelena Kijonoka**, Supervisor
+**Date:** 3 February 2025
