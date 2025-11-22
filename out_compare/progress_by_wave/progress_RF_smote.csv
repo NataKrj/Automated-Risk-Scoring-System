@@ -1,6 +1,0 @@
-wave,precision@R,recall@thr,FP_per_1000,TP,FP,TN,FN
-synthetic_transactions_structured_100_1,0.875,1.0,2.4752475247524752,35,5,1980,0
-synthetic_transactions_structured_100_2,1.0,1.0,0.0,28,0,1992,0
-synthetic_transactions_structured_100_3,1.0,1.0,0.0,20,0,2000,0
-synthetic_transactions_structured_100_4,1.0,1.0,0.0,29,0,1991,0
-synthetic_transactions_structured_100_5,1.0,1.0,0.0,30,0,1990,0
