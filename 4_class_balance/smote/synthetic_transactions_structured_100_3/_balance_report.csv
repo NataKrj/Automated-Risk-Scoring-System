@@ -1,2 +1,3 @@
-variant,"pos,neg,frac"
-smote,"(4000, 8000, 0.3333)"
+version https://git-lfs.github.com/spec/v1
+oid sha256:9418fd18110797395205993f105ebdcfeb8024057b86287b130c3911b75d10ea
+size 52

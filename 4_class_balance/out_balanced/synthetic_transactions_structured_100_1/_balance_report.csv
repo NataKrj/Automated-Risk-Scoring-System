@@ -1,5 +1,3 @@
-variant,"pos,neg,frac"
-baseline,"(65, 8015, 0.008)"
-smote,"(2404, 8015, 0.2307)"
-adasyn,"(2398, 8015, 0.2303)"
-rose,"(3436, 8015, 0.3001)"
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b758dfed31eaf3211b6bf14c18330e3b24c00cd10e81ac376635a53c53d3bd5
+size 139
