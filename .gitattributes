@@ -1,0 +1,2 @@
+1_data_synthesis/Rules_based_synthetic_data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+4_class_balance/**/*.csv filter=lfs diff=lfs merge=lfs -text
