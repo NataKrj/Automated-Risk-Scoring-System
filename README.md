@@ -29,7 +29,5 @@ This repository provides code, sample configs and notebooks for each stage.
 /3_data_quality/            # rule-based validation, feature profiling
 /4_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
 /5_model_selection/         # AutoML runs, feature importance, shortlist
-/6_training_mode/           # incremental vs full retraining, thresholds
-/7_adaptivity_check/
-/notebooks/                 # experiments and evaluation
+/6_training_adaptation/     # incremental vs full retraining, thresholds
 /meeting minutes/           # meeting minutes with supervisor
