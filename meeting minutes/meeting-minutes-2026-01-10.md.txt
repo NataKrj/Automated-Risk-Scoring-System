@@ -1,0 +1,33 @@
+# Meeting Minutes
+
+**Date:** 9 January 2025  
+**Subject:** Status review of the master’s thesis  
+**Participants:**  
+- **Nadezda Spiridovska** – supervisor  
+- **Nataļja Krjuckova** – master’s thesis author  
+
+---
+
+## 1. Summary of the Meeting
+During this meeting, Nadezda and Nataļja discussed the master's thesis progress, presentation and pre-defence logistics, structure and contents of the thesis (literature review, methodology, experiments, results, discussion), and required improvements to the presentation slides and report.
+
+---
+
+## 2. Action Items
+
+### 2.1 Tasks for Nadezda
+- Provide detailed feedback on Nataļja’s conclusion and presentation (wording accuracy, logical structure), ideally by the day before the pre-defense.
+- Send the promised examples of publication articles.
+
+### 2.2 Tasks for Nataļja
+- Update the presentation: add a short intro slide on the domain and data; simplify overloaded slides; move large tables to appendix/document; remove duplicated content.
+- Refine the goal and hypothesis: rephrase the goal beyond “to show”, clarify that a system prototype was developed, and define criteria for the “optimal combination”.
+- Revise discussion/conclusion: briefly state what was done, practical value, novelty, limitations, and possible improvements.
+
+Rehearse the talk (avoid reading slides) and check timing (~12 minutes target).
+
+---
+
+**Prepared by:** Natalja Krjuckova, master’s thesis author  
+**Reviewed by:** Nadezda Spiridovska, supervisor  
+**Date:** 10 January 2026
