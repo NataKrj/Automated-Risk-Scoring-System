@@ -13,11 +13,10 @@ The pipeline follows these main stages (see thesis diagram):
 2. Building a scenario catalogue (FI guidelines, EU directives)  
 3. Synthetic transaction generation  
 4. Data-quality check
-5. Class-imbalance handling (SMOTE / ADASYN / ROSE)  
-6. Model selection (AutoML and expert shortlisting)  
+5. Model selection (AutoML and expert shortlisting)
+6. Class-imbalance handling (SMOTE / ADASYN / ROSE)  
 7. Training / retraining mode and threshold update  
 8. Adaptivity check  
-9. (Planning) Explainability (XAI)
 
 This repository provides code, sample configs and notebooks for each stage.
 
@@ -27,7 +26,7 @@ This repository provides code, sample configs and notebooks for each stage.
 /1_data_synthesis/          # data synthesis method, generators, scenario specs
 /2_scenario_catalogue/      # scenarios from FI/EU rules
 /3_data_quality/            # rule-based validation, feature profiling
-/4_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
-/5_model_selection/         # AutoML runs, feature importance, shortlist
+/4_model_selection/         # AutoML runs, feature importance, shortlist
+/5_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
 /6_training_adaptation/     # incremental vs full retraining, thresholds
 /meeting minutes/           # meeting minutes with supervisor
