@@ -26,7 +26,7 @@ This repository provides code, sample configs and notebooks for each stage.
 /1_data_synthesis/          # data synthesis method, generators, scenario specs
 /2_scenario_catalogue/      # scenarios from FI/EU rules
 /3_data_quality/            # rule-based validation, feature profiling
-/4_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
-/5_model_selection/         # AutoML runs, feature importance, shortlist
+/4_model_selection/         # AutoML runs, feature importance, shortlist
+/5_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
 /6_training_adaptation/     # incremental vs full retraining, thresholds
 /meeting minutes/           # meeting minutes with supervisor
