@@ -1,0 +1,37 @@
+# Meeting Minutes
+
+**Date:** 20 January 2025  
+**Subject:** Status review of the master’s thesis  
+**Participants:**  
+- **Nadezda Spiridovska** – supervisor  
+- **Nataļja Krjuckova** – master’s thesis author  
+
+---
+
+## 1. Summary of the Meeting
+- Discussed master’s thesis submission and defence timeline.
+- Reviewed content and formatting issues (framework vs. workflow, methodology, formulas, tables).
+- Discussed presentation preparation and possible publication.
+- Agreed: Nataļja finalises thesis + slides by end of week; Nadezda reviews the full thesis on 26 January and sends comments.
+
+---
+
+## 2. Action Items
+
+### 2.1 Tasks for Nataļja
+- Finalise the thesis text and structure by end of week.
+- Update the presentation: simplify, highlight final framework/workflow, prepare a clear 10-minute version by end of week.
+- Align formulas and tables with requirements by end of week.
+- Clearly state the domain relevance (anti-money laundering) and the problem addressed by end of week.
+- Upload an (almost) final version to the system and share the link once ready.
+
+### 2.2 Tasks for Nadezda
+- Review the full thesis on 26 January and send comments.
+- Check formatting practices in other theses and provide recommendations.
+- Suggest journals/conferences for possible publication and advise next steps during the following week.
+
+---
+
+**Prepared by:** Natalja Krjuckova, master’s thesis author  
+**Reviewed by:** Nadezda Spiridovska, supervisor  
+**Date:** 20 January 2026

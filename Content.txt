@@ -1,0 +1,10 @@
+The full project repository is available at - https://github.com/NataKrj/Automated-Risk-Scoring-System.
+Contains:
+/1_data_synthesis/ – data synthesis methods, generators, and scenario specifications
+/2_scenario_catalogue/ – AML scenarios based on FI and EU guidance
+/3_data_quality/ – rule-based validation and feature profiling
+/4_model_selection/ – AutoML experiments, feature importance
+/5_class_balance/ – class-imbalance handling (SMOTE, ADASYN, ROSE)
+/6_training_adaptation/ – model training logic and binary and multiclass results
+/meeting_minutes/ – meeting minutes with the supervisor
+/artefacts/ – supporting materials (presentations, Gantt chart, conference materials, Zotero library)
