@@ -21,13 +21,34 @@ The pipeline follows these main stages (see thesis diagram):
 This repository provides code, sample configs and notebooks for each stage.
 
 ## 2. Repository structure
+```
+/1_data_synthesis/          # code for synthetic transaction generation (rule-based + generative tests), configs/specs
+/2_scenario_catalogue/      # scenario catalogue and scenario combinations (stored as design artefacts, incl. Excel)
+/3_data_quality/            # notebooks for rule-based data validation and basic profiling checks
+/4_model_selection/         # model selection experiments (candidate comparison, feature importance, shortlist)
+/5_class_balance/           # imbalance handling experiments (SMOTE/ADASYN/ROSE and baseline strategies)
+/6_training_mode/           # training experiments + outputs:
+                            # - binary baseline on two datasets (Syn100 vs Syn500), incremental learning vs full retraining,
+                            # - binary with OOF + Platt scaling, incl. full retraining (small vs large),
+                            # - multiclass baseline runs (Syn100 vs Syn500)
+/meeting minutes/           # meeting and correspondence summary
+/artefacts/                 # supporting materials (slides, plan/Gantt snapshots, conference materials, Zotero library)
+```
+### Synthetic datasets
+- **Syn100:** 10,000 normal and 100 suspicious transactions.
+- **Syn500:** 50,000 normal and 500 suspicious transactions.
 
-```text
-/1_data_synthesis/          # data synthesis method, generators, scenario specs
-/2_scenario_catalogue/      # scenarios from FI/EU rules
-/3_data_quality/            # rule-based validation, feature profiling
-/4_model_selection/         # AutoML runs, feature importance, shortlist
-/5_class_balance/           # SMOTE/ADASYN/ROSE, class weights, focal loss
-/6_training_adaptation/     # incremental vs full retraining, thresholds
-/meeting minutes/           # meeting minutes with supervisor
-/artefacts/                 # supporting materials (presentations, Gantt chart, conference materials, Zotero library)
+Scenario definitions and scenario combinations used for generation are available in
+/2_scenario_catalogue/. Each dataset group is organised into five consecutive data
+packages (B1–B5), and all training stages are executed separately for Syn100 and Syn500.
+
+## Project plan and evidence
+GitHub Projects is used to document the completed research and implementation stages:
+- Table view: https://github.com/users/NataKrj/projects/4/views/1
+- Board view: https://github.com/users/NataKrj/projects/4/views/2
+- Roadmap view: https://github.com/users/NataKrj/projects/4/views/3
+
+## Additional experimental materials
+Extended experimental results are available here:
+- https://drive.google.com/file/d/1NRxHzGbsFfVxNoBQbD-i_ErHGbw8SaiA/view?usp=sharing (7z archive)
+- https://drive.google.com/file/d/1dZ8euOKW4qUbmQcJeBttahok9126V6uo/view?usp=sharing (zip archive)
