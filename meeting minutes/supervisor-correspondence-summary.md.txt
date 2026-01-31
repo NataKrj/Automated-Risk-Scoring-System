@@ -1,0 +1,55 @@
+# Supervision Correspondence Summary
+
+**Period:** February 2025 – December 2025  
+**Subject:** Master’s thesis development and coordination (email correspondence)  
+**Participants:**  
+- **Nadezda Spiridovska** – supervisor  
+- **Nataļja Krjuckova** – master’s thesis author  
+
+---
+
+## February–March 2025 — Initial planning and abstract preparation
+- Identification of key research gaps (benchmarking inconsistencies, explainability, limitations of synthetic data).
+- Discussion of possible dual supervision.
+- Review and revision of the thesis abstract for conference submission.
+- Abstract approved and submitted after revisions.
+
+---
+
+## April 2025 — Presentation and research framing
+- Iterative review of thesis presentation slides.
+- Feedback focused on:
+  - clarification of research goals and tasks,
+  - positioning of research gaps,
+  - interpretation of “optimal model” selection.
+- Guidance on separating AML background and risk-scoring concepts for improved reader clarity.
+
+---
+
+## May 2025 — Thesis structure and literature support
+- Review of introduction draft and overall thesis structure.
+- Supervisor provided methodological writing advice.
+- Additional reference materials shared (master’s thesis and article on boosting-based approaches).
+
+---
+
+## September–October 2025 — Theory and methodology refinement
+- Progress update (~30 pages completed).
+- Discussion of performance trade-offs (precision vs recall) and industry-relevant examples.
+- Review of updated theory and methodology sections.
+- Feedback on structure (separating AML background where appropriate).
+- In-person supervision meeting conducted.
+
+---
+
+## December 2025 — Final thesis stage
+- Confirmation that the practical implementation was completed.
+- Results section nearing completion; discussion section planned.
+- Extensive synthetic data description prepared (~20 pages).
+- Final supervision meetings scheduled and coordinated.
+
+---
+
+**Prepared by:** Nataļja Krjuckova, master’s thesis author  
+**Reviewed by:** Nadezda Spiridovska, supervisor  
+**Date:** January 2026
