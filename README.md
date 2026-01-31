@@ -31,5 +31,3 @@ This repository provides code, sample configs and notebooks for each stage.
 /6_training_adaptation/     # incremental vs full retraining, thresholds
 /meeting minutes/           # meeting minutes with supervisor
 /artefacts/                 # supporting materials (presentations, Gantt chart, conference materials, Zotero library)
-
-The full project repository is available at - https://github.com/NataKrj/Automated-Risk-Scoring-System.
