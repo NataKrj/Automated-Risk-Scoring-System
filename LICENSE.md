@@ -1,6 +1,6 @@
 # LICENSE
 
-Copyright (c) 2026 <Natalja Krjuckova>
+Copyright (c) 2026 Natalja Krjuckova
 All rights reserved.
 
 Permission is granted to view this repository and to run the code locally for
